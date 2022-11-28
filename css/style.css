@@ -99,12 +99,6 @@ header.sticky ul li a {
 
 /*--BANNER SIDE--*/
 #banner {
-    /* background: url(/images/banner.png); */
-    /* filter: contrast(75%); */
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: top center;
-    background-repeat: no-repeat;
     height: 84vh;
     margin-bottom: 95px;
 }

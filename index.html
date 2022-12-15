@@ -1,286 +1,309 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>FIVE+ Studio</title>
         <link rel="icon" href="images/fpsLogoWhite.png">
+        <link rel="stylesheet" href="css/bootstrap-css/bootstrap.css">
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap" rel="stylesheet">
     </head>
     <body>
-
-        <button onclick="topFunction()" id="ToTopBtn" title="Go to top">^</button> 
-
         <header>
             <div class="nav-bar">
-                <a href="index.html"><img src="images/logoWhite.png" class="logo" id="logo"></a>
+                <a href="index.html"><img src="images/logoWhite.png" alt="FivePlusLogo" class="logo" id="logo"></a>
                 <nav>
                     <ul>
-                        <li><a href="#banner">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
                         <li><a href="#service">Services</a></li>
-                        <li><a href="#feature">Features</a></li>
-                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#project">Projects</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <section id="banner" style="background: url(images/banner.png); background-attachment: fixed; background-size: cover; background-position: top center; background-repeat: no-repeat; filter: contrast(80%);">
+        <section id="banner" style="background: url(images/banner.png); background-attachment: fixed; background-size: cover; background-position: top center; background-repeat: no-repeat;">
             <div class="banner-text">
-                <h1>Your Concept,</h1>
-                <h3>Our Creativity.</h3>
-                <p>A studio that provides utmost creativity, we turn your ideas into work.</p>
-            </div>
-        </section> 
-
-         <!--SERVICES-->
-
-         <section id="service">
-            <div class="title-text">
-                <p>SERVICES</p>
-                <div class="bottom-line"></div>
-            </div>
-            <div class="service-box">
-                <div class="service-columns-4">
-                    <div class="service-item first-in-row" style="height: 277.8px; width: 25%;">
-                        <div class="service-image" style="background: url(images/services/digital_art.jpg) no-repeat center / cover; height:277.65px; width: 100%;"></div>
-                        <a href="#">
-                            <div class="service-overlay"></div>
-                            <div class="service-desc">
-                                <h1>Digital Art</h1>
-                                <div class="service-button">
-                                    <p>Learn more</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="service-item" style="height: 277.8px; width: 25%;">
-                        <div class="service-image" style="background: url(images/services/logo-design.png) no-repeat center / cover; height:277.65px; width: 100%;"></div>
-                        <a href="#">
-                            <div class="service-overlay"></div>
-                            <div class="service-desc">
-                                <h1>Logo Design</h1>
-                                <div class="service-button">
-                                    <p>Learn more</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="service-item" style="height: 277.8px; width: 25%;">
-                        <div class="service-image" style="background: url(images/services/wallpaper.png) no-repeat center / cover; height:277.65px; width: 100%;"></div>
-                        <a href="#">
-                            <div class="service-overlay"></div>
-                            <div class="service-desc">
-                                <h1>Wallpaper</h1>
-                                <div class="service-button">
-                                    <p>Learn more</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="service-item last-in-row" style="height: 277.8px; width: 25%;">
-                        <div class="service-image" style="background: url(images/services/thumbnail.png) no-repeat center / cover; height:277.65px; width: 100%;"></div>
-                        <a href="#">
-                            <div class="service-overlay"></div>
-                            <div class="service-desc">
-                                <h1>Thumbnail</h1>
-                                <div class="service-button">
-                                    <p>Learn more</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="service-item first-in-row2" style="height: 277.8px; width: 25%;">
-                        <div class="service-image" style="background: url(images/services/mockup-design.png) no-repeat center / cover; height:277.65px; width: 100%;"></div>
-                        <a href="#">
-                            <div class="service-overlay"></div>
-                            <div class="service-desc">
-                                <h1>Mockup Design</h1>
-                                <div class="service-button">
-                                    <p>Learn more</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="service-item" style="height: 277.8px; width: 25%;">
-                        <div class="service-image" style="background: url(images/services/photo-manipulation.jpg) no-repeat center / cover; height:277.65px; width: 100%;"></div>
-                        <a href="#">
-                            <div class="service-overlay"></div>
-                            <div class="service-desc">
-                                <h1>Photo Manipulation</h1>
-                                <div class="service-button">
-                                    <p>Learn more</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="service-item" style="height: 277.8px; width: 25%;">
-                        <div class="service-image" style="background: url(images/services/lightroom-presets.jpg) no-repeat center / cover; height:277.65px; width: 100%;"></div>
-                        <a href="#">
-                            <div class="service-overlay"></div>
-                            <div class="service-desc">
-                                <h1>Lightroom Presets</h1>
-                                <div class="service-button">
-                                    <p>Learn more</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="service-item last-in-row2" style="height: 277.8px; width: 25%;">
-                        <div class="service-image" style="background: url(images/services/product-poster.png) no-repeat center / cover; height:277.65px; width: 100%;"></div>
-                        <a href="#">
-                            <div class="service-overlay"></div>
-                            <div class="service-desc">
-                                <h1>Commercial Product Poster</h1>
-                                <div class="service-button">
-                                    <p>Learn more</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="service-item first-in-row3" style="height: 277.8px; width: 25%;">
-                        <div class="service-image" style="background: url(images/services/t-shirt-design.jpg) no-repeat center / cover; height:277.65px; width: 100%;"></div>
-                        <a href="#">
-                            <div class="service-overlay"></div>
-                            <div class="service-desc">
-                                <h1>T-Shirt Design</h1>
-                                <div class="service-button">
-                                    <p>Learn more</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="service-item" style="height: 277.8px; width: 25%;">
-                        <div class="service-image" style="background: url(images/services/video-editing.JPG) no-repeat center / cover; height:277.65px; width: 100%;"></div>
-                        <a href="#">
-                            <div class="service-overlay"></div>
-                            <div class="service-desc">
-                                <h1>Video Editing</h1>
-                                <div class="service-button">
-                                    <p>Learn more</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="service-item" style="height: 277.8px; width: 25%;">
-                        <div class="service-image" style="background: url(images/services/rendering.png) no-repeat center / cover; height:277.65px; width: 100%;"></div>
-                        <a href="#">
-                            <div class="service-overlay"></div>
-                            <div class="service-desc">
-                                <h1>Rendering</h1>
-                                <div class="service-button">
-                                    <p>Learn more</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="service-item last-in-row3" style="height: 277.8px; width: 25%;">
-                        <div class="service-image" style="background: url(images/services/architechtural-walkthrough.png) no-repeat center / cover; height:277.65px; width: 100%;"></div>
-                        <a href="#">
-                            <div class="service-overlay"></div>
-                            <div class="service-desc">
-                                <h1>Architectural Walkthrough</h1>
-                                <div class="service-button">
-                                    <p>Learn more</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="service-item first-in-row4" style="height: 277.8px; width: 25%;">
-                        <div class="service-image" style="background: url(images/services/furniture-model.jpg) no-repeat center / cover; height:277.65px; width: 100%;"></div>
-                        <a href="#">
-                            <div class="service-overlay"></div>
-                            <div class="service-desc">
-                                <h1>Furniture Models</h1>
-                                <div class="service-button">
-                                    <p>Learn more</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="service-item" style="height: 277.8px; width: 25%;">
-                        <div class="service-image" style="background: url(images/services/post-production.jpg) no-repeat center / cover; height:277.65px; width: 100%;"></div>
-                        <a href="#">
-                            <div class="service-overlay"></div>
-                            <div class="service-desc">
-                                <h1>Post-Production</h1>
-                                <div class="service-button">
-                                    <p>Learn more</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="service-item last-in-row4" style="height: 277.8px; width: 25%;">
-                        <div class="service-image" style="background: url(images/services/custom-web-portfolio.png) no-repeat center / cover; height:277.65px; width: 100%;"></div>
-                        <a href="#">
-                            <div class="service-overlay"></div>
-                            <div class="service-desc">
-                                <h1>Custom Web Portfolio Template</h1>
-                                <div class="service-button">
-                                    <p>Learn more</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                <h1 class="fw-semibold"><span class="text-span1">Your</span> <br> <span class="text-span2">Concept</span>,</h1>
+                <h1 class="fw-bold"><span class="text-span4">Creativity</span></h1>
+                <h2 class="fw-bold">Our</h2>
             </div>
         </section>
-
-        <!--FEATURES-->
-
-        <section id="feature">
-            <div class="title-text">
-                <p>FEATURES</p>
-                <div class="bottom-line"></div>
+        <section id="about">
+            <div class="section-title">
+                <h3 class="fw-bold">About Us</h3>
             </div>
-            <div class="feature-box">
-                <div class="features">
-                    <h1>PROVIDING HIGH-QUALITY RESULTS</h1>
-                    <div class="features-desc">
-                        <div class="features-text">
-                            <p>Five+ studio values quality, ensuring your needs are met.</p>
-                        </div>
-                    </div>
-                    <h1>AFFORDABLE COST</h1>
-                    <div class="features-desc">
-                        <div class="features-text">
-                            <p>We value our customers as much as we value our profession, balancing the cost and our put efforts.</p>
-                        </div>
-                    </div>
-                    <!-- <h1>ONLINE SERVICE</h1>
-                    <div class="features-desc">
-                        <div class="features-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        </div>
+            <div class="section-desc">
+                <h1>We are a Creative Studio that prioritizes Quality</h1>
+                <div class="desc-extra">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <!-- <div class="desc-extra-button">
+                        <a href="#"><h4>About Us</h4></a>
                     </div> -->
                 </div>
-                <div class="features-img">
-                    <img src="images/features.jfif">
+            </div>
+            <div class="about-img" style="background: url(images/about-img.jpg) no-repeat center / cover;"></div>
+        </section>
+        <section id="service">
+            <div class="section-title">
+                <h3 class="fw-bold">Services</h3>
+            </div>
+            <div class="section-desc">
+                <h1>Providing a wide variety of Services to choose from</h1>
+                <div class="desc-extra">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <!-- <div class="desc-extra-button">
+                        <a href="#"><h4>View All</h4></a>
+                    </div> -->
+                </div>
+            </div>
+            <div class="service-slideshow">
+                <div class="service-preview" style="background: url(images/services/digital_art.jpg) no-repeat center / cover; height:277.65px; width: 950px; height: 530px; border-radius: 20px;">
+                    <div class="service-overlay">
+                        <div class="service-desc">
+                            <h3>Digital Art</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-preview" style="background: url(images/services/logo-design.png) no-repeat center / cover; height:277.65px; width: 950px; height: 530px; border-radius: 20px; display: none;">
+                    <div class="service-overlay">
+                        <div class="service-desc">
+                            <h3>Logo Design</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-preview" style="background: url(images/services/wallpaper.png) no-repeat center / cover; height:277.65px; width: 950px; height: 530px; border-radius: 20px; display: none;">
+                    <div class="service-overlay">
+                        <div class="service-desc">
+                            <h3>Wallpaper</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-preview" style="background: url(images/services/thumbnail.png) no-repeat center / cover; height:277.65px; width: 950px; height: 530px; border-radius: 20px; display: none;">
+                    <div class="service-overlay">
+                        <div class="service-desc">
+                            <h3>Thumbnail</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-preview" style="background: url(images/services/mockup-design.png) no-repeat center / cover; height:277.65px; width: 950px; height: 530px; border-radius: 20px; display: none;">
+                    <div class="service-overlay">
+                        <div class="service-desc">
+                            <h3>Mockup Design</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-preview" style="background: url(images/services/photo-manipulation.jpg) no-repeat center / cover; height:277.65px; width: 950px; height: 530px; border-radius: 20px; display: none;">
+                    <div class="service-overlay">
+                        <div class="service-desc">
+                            <h3>Photo Manipulation</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-preview" style="background: url(images/services/lightroom-presets.jpg) no-repeat center / cover; height:277.65px; width: 950px; height: 530px; border-radius: 20px; display: none;">
+                    <div class="service-overlay">
+                        <div class="service-desc">
+                            <h3>Lightroom Presets</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-preview" style="background: url(images/services/product-poster.png) no-repeat center / cover; height:277.65px; width: 950px; height: 530px; border-radius: 20px; display: none;">
+                    <div class="service-overlay">
+                        <div class="service-desc">
+                            <h3>Commercial Product Poster</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-preview" style="background: url(images/services/t-shirt-design.jpg) no-repeat center / cover; height:277.65px; width: 950px; height: 530px; border-radius: 20px; display: none;">
+                    <div class="service-overlay">
+                        <div class="service-desc">
+                            <h3>T-Shirt Design</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-preview" style="background: url(images/services/video-editing.JPG) no-repeat center / cover; height:277.65px; width: 950px; height: 530px; border-radius: 20px; display: none;">
+                    <div class="service-overlay">
+                        <div class="service-desc">
+                            <h3>Video Editing</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-preview" style="background: url(images/services/rendering.png) no-repeat center / cover; height:277.65px; width: 950px; height: 530px; border-radius: 20px; display: none;">
+                    <div class="service-overlay">
+                        <div class="service-desc">
+                            <h3>Rendering</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-preview" style="background: url(images/services/architechtural-walkthrough.png) no-repeat center / cover; height:277.65px; width: 950px; height: 530px; border-radius: 20px; display: none;">
+                    <div class="service-overlay">
+                        <div class="service-desc">
+                            <h3>Architechtural Walkthrough</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-preview" style="background: url(images/services/furniture-model.jpg) no-repeat center / cover; height:277.65px; width: 950px; height: 530px; border-radius: 20px; display: none;">
+                    <div class="service-overlay">
+                        <div class="service-desc">
+                            <h3>Furniture Model</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-preview" style="background: url(images/services/post-production.jpg) no-repeat center / cover; height:277.65px; width: 950px; height: 530px; border-radius: 20px; display: none;">
+                    <div class="service-overlay">
+                        <div class="service-desc">
+                            <h3>Port-Production</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-preview" style="background: url(images/services/custom-web-portfolio.png) no-repeat center / cover; height:277.65px; width: 950px; height: 530px; border-radius: 20px; display: none;">
+                    <div class="service-overlay">
+                        <div class="service-desc">
+                            <h3>Custom Web Portfolio</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mini-service-preview">
+                    <div class="preview-card highlight-on" onclick="currentDiv(1)">
+                        <div class="prev-selection" style="background: url(images/services/digital_art.jpg) no-repeat center / cover; height:100px; min-width:115px; border-radius: 10px; cursor:pointer" ></div>
+                        <h1>Digital Art</h1>
+                    </div>
+                    <div class="preview-card" onclick="currentDiv(2)">
+                        <div class="prev-selection" style="background: url(images/services/logo-design.png) no-repeat center / cover; height:100px; min-width:115px; border-radius: 10px; cursor:pointer" ></div>
+                        <h1>Logo Design</h1>
+                    </div>
+                    <div class="preview-card" onclick="currentDiv(3)">
+                        <div class="prev-selection" style="background: url(images/services/wallpaper.png) no-repeat center / cover; height:100px; min-width:115px; border-radius: 10px; cursor:pointer" ></div>
+                        <h1>Wallpaper</h1>
+                    </div>
+                    <div class="preview-card" onclick="currentDiv(4)">
+                        <div class="prev-selection" style="background: url(images/services/thumbnail.png) no-repeat center / cover; height:100px; min-width:115px; border-radius: 10px; cursor:pointer" ></div>
+                        <h1>Thumbnail</h1>
+                    </div>
+                    <div class="preview-card" onclick="currentDiv(5)">
+                        <div class="prev-selection" style="background: url(images/services/mockup-design.png) no-repeat center / cover; height:100px; min-width:115px; border-radius: 10px; cursor:pointer" ></div>
+                        <h1>Mockup Design</h1>
+                    </div>
+                    <div class="preview-card" onclick="currentDiv(6)">
+                        <div class="prev-selection" style="background: url(images/services/photo-manipulation.jpg) no-repeat center / cover; height:100px; min-width:115px; border-radius: 10px; cursor:pointer" ></div>
+                        <h1>Photo Manipulation</h1>
+                    </div>
+                    <div class="preview-card" onclick="currentDiv(7)">
+                        <div class="prev-selection" style="background: url(images/services/lightroom-presets.jpg) no-repeat center / cover; height:100px; min-width:115px; border-radius: 10px; cursor:pointer" ></div>
+                        <h1>Lightroom Presets</h1>
+                    </div>
+                    <div class="preview-card" onclick="currentDiv(8)">
+                        <div class="prev-selection" style="background: url(images/services/product-poster.png) no-repeat center / cover; height:100px; min-width:115px; border-radius: 10px; cursor:pointer" ></div>
+                        <h1>Commercial Product Poster</h1>
+                    </div>
+                    <div class="preview-card" onclick="currentDiv(9)">
+                        <div class="prev-selection" style="background: url(images/services/t-shirt-design.jpg) no-repeat center / cover; height:100px; min-width:115px; border-radius: 10px; cursor:pointer" ></div>
+                        <h1>T-Shirt Design</h1>
+                    </div>
+                    <div class="preview-card" onclick="currentDiv(10)">
+                        <div class="prev-selection" style="background: url(images/services/video-editing.JPG) no-repeat center / cover; height:100px; min-width:115px; border-radius: 10px; cursor:pointer" ></div>
+                        <h1>Video Editing</h1>
+                    </div>
+                    <div class="preview-card" onclick="currentDiv(11)">
+                        <div class="prev-selection" style="background: url(images/services/rendering.png) no-repeat center / cover; height:100px; min-width:115px; border-radius: 10px; cursor:pointer" ></div>
+                        <h1>Rendering</h1>
+                    </div>
+                    <div class="preview-card" onclick="currentDiv(12)">
+                        <div class="prev-selection" style="background: url(images/services/architechtural-walkthrough.png) no-repeat center / cover; height:100px; min-width:115px; border-radius: 10px; cursor:pointer" ></div>
+                        <h1>Architechtural Walkthrough</h1>
+                    </div>
+                    <div class="preview-card" onclick="currentDiv(13)">
+                        <div class="prev-selection" style="background: url(images/services/furniture-model.jpg) no-repeat center / cover; height:100px; min-width:115px; border-radius: 10px; cursor:pointer" ></div>
+                        <h1>Furniture Model</h1>
+                    </div>
+                    <div class="preview-card" onclick="currentDiv(14)">
+                        <div class="prev-selection" style="background: url(images/services/post-production.jpg) no-repeat center / cover; height:100px; min-width:115px; border-radius: 10px; cursor:pointer" ></div>
+                        <h1>Post-Production</h1>
+                    </div>
+                    <div class="preview-card" onclick="currentDiv(15)">
+                        <div class="prev-selection" style="background: url(images/services/custom-web-portfolio.png) no-repeat center / cover; height:100px; min-width:115px; border-radius: 10px; cursor:pointer" ></div>
+                        <h1>Custom Web Portfolio</h1>
+                    </div>
                 </div>
             </div>
         </section>
-        
-        <!--CONTACT-->
-
-        <section id="contact">
-            <div class="footer-row">
-                <div class="footer-left">
-                    <h1>Opening Hours</h1>
-                    <p>Monday to Friday - 9am to 9pm</p>
-                    <p>Saturday to Sundy - 8am to 11pm</p>
-                </div>
-                <div class="footer-right">
-                    <h1>Get In Touch</h1>
-                    <p>fiveplusstudio@gmail.com</p>
-                    <p>(+63)949-179-0728</p>
+        <section id="project">
+            <div class="section-title">
+                <h3 class="fw-bold">Projects</h3>
+            </div>
+            <div class="section-desc">
+                <h1>We give the best result to receive customer satisfaction</h1>
+                <div class="desc-extra">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <a class="desc-extra-button" href="#" role="button">View More</a>
                 </div>
             </div>
-            <div class="footer-copyright">
-                © 
-                <a>FIVE+ Studio.</a> 
-                2022.
+            <div class="container text-center project-display">
+                <div class="row gap-1">
+                  <div class="col top-left proj-rad">
+                    Top left tubig is water
+                  </div>
+                  <div class="col top-center proj-rad">
+                    Top center tubig is water
+                  </div>
+                  <div class="col top-right proj-rad">
+                    Top right tubig is water
+                  </div>
+                  <div class="w-100"></div>
+                  <div class="col top-left proj-rad">
+                    Bottom left tubig is water
+                  </div>
+                  <div class="col top-center proj-rad">
+                    Bottom center tubig is water
+                  </div>
+                  <div class="col top-right proj-rad">
+                    Bottom right tubig is water
+                  </div>
+                </div>
+              </div>
+        </section>
+        <section>
+            <div class="fb-visit">
+                <h1>INTERESTED IN WHAT WE DO?</h1>
+                <a href="#" class="invite-button" role="button">Visit us on Facebook</a>
             </div>
         </section>
+        <section>
+            <div class="footer">
+                <div class="footer-content">
+                    <img src="images/logoWhite.png" alt="logo" class="logo">
+                    <div class="schedule lh-1">
+                        <h6 class="fw-bold">Schedule</h6>
+                        <p>Monday - Friday  9:00AM - 9:00PM</p>
+                        <p>Saturday - Sunday 8:00AM - 11:00PM</p>
+                    </div>
+                    <div class="socials lh-1">
+                        <h6 class="fw-bold">Socials</h6>
+                        <a href="#"><p>Facebook</p></a>
+                        <a href="#"><p>Instagram</p></a>
+                    </div>
+                </div>
+                <p class="copyright">© FIVE+ Studio. 2022</p>
+            </div>
+        </section>
+        <script src="js/script.js"></script>
+        <script src="js/bootstrap-js/bootstrap.js"></script>
     </body>
-    <script src="js/script.js"></script>
 </html>
